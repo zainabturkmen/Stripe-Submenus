@@ -35,3 +35,11 @@ sidebar.innerHTML = sublinks.map((item)=>{
     </div>
     </article>`
 }).join("");
+
+linkBtns.forEach((btn)=>{
+    btn.addEventListener("mouseover", function(e){
+        const text = e.currentTarget.textContent;
+        
+        submenu.classList.add("show")
+    })
+})
