@@ -18,3 +18,6 @@ toggleBtn.addEventListener("click", ()=>{
 closeBtn.addEventListener("click", ()=>{
     sidebarWrapper.classList.remove("show")
 });
+
+// set sidebar
+
