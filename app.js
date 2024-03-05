@@ -12,5 +12,9 @@ const nav = document.querySelector(".nav");
 // hide/show sidebar
 
 toggleBtn.addEventListener("click", ()=>{
-    closeBtn.classList.toggle("show")
+    sidebarWrapper.classList.add("show")
+})
+
+closeBtn.addEventListener("click", ()=>{
+    sidebarWrapper.classList.remove("show")
 })
