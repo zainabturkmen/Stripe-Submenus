@@ -9,4 +9,8 @@ const submenu = document.querySelector(".submenu");
 const hero = document.querySelector(".hero");
 const nav = document.querySelector(".nav");
 
-// hide/show
+// hide/show sidebar
+
+toggleBtn.addEventListener("click", ()=>{
+    closeBtn.classList.toggle("show")
+})
