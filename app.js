@@ -21,6 +21,6 @@ closeBtn.addEventListener("click", ()=>{
 
 // set sidebar
 
-sidebar.innerHTML = sublinks.map(()=>{
-
+sidebar.innerHTML = sublinks.map((item)=>{
+    
 });
