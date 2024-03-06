@@ -55,7 +55,7 @@ linkBtns.forEach((btn)=>{
             let columns = "col-2";
             if(links.length === 3){
                 columns = "col-3"
-            }
+            };
             if(links.length > 3){
                 columns = "col-4"
             };
