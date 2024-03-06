@@ -45,5 +45,5 @@ linkBtns.forEach((btn)=>{
         submenu.classList.add("show");
         submenu.style.left = `${center}px`
         submenu.style.top = `${bottom}px`
-    })
-})
+    });
+});
