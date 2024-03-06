@@ -40,6 +40,7 @@ linkBtns.forEach((btn)=>{
     btn.addEventListener("mouseover", function(e){
         const text = e.currentTarget.textContent;
         const temBtn = e.currentTarget.getBoundingClientRect();
+        const center = (temBtn.left + temBtn.right) / 2;
         const bottom = temBtn.bottom -3;
         submenu.classList.add("show");
     })
