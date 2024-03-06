@@ -41,6 +41,6 @@ linkBtns.forEach((btn)=>{
         const text = e.currentTarget.textContent;
         const temBtn = e.currentTarget.getBoundingClientRect();
         const bottom = temBtn.bottom -3;
-        submenu.classList.add("show")
+        submenu.classList.add("show");
     })
 })
