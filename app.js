@@ -58,7 +58,7 @@ linkBtns.forEach((btn)=>{
             }
             if(links.length > 3){
                 columns = "col-4"
-            }
+            };
 
             submenu.innerHTML = `
             <section>
