@@ -51,7 +51,6 @@ linkBtns.forEach((btn)=>{
             submenu.style.left = `${center}px`;
             submenu.style.top = `${bottom}px`;
 
-
             // optional
             let columns = "col-2";
             if(links.length === 3){
