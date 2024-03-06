@@ -45,10 +45,13 @@ linkBtns.forEach((btn)=>{
 
 
         const temPage =sublinks.find(({page})=>page === text);
-        console.log(temPage);
+        if (temPage) {
+            const {page, links} = temPage
+            submenu.classList.add("show");
+            submenu.style.left = `${center}px`;
+            submenu.style.top = `${bottom}px`;
+            submenu.innerHTML = ``
+        }
 
-        submenu.classList.add("show");
-        submenu.style.left = `${center}px`
-        submenu.style.top = `${bottom}px`
     });
 });
