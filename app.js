@@ -68,4 +68,4 @@ linkBtns.forEach((btn)=>{
 
 hero.addEventListener("mouseover", function(e){
     submenu.classList.remove("show");
-})
+});
