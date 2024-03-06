@@ -72,7 +72,7 @@ linkBtns.forEach((btn)=>{
             </div>
             </section>
             `
-        }
+        };
     });
 });
 
