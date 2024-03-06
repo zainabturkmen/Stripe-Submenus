@@ -50,8 +50,19 @@ linkBtns.forEach((btn)=>{
             submenu.classList.add("show");
             submenu.style.left = `${center}px`;
             submenu.style.top = `${bottom}px`;
-            submenu.innerHTML = ``
+            submenu.innerHTML = `
+            <section>
+            <h4>${page}</h4>
+            <div class="submenu-center col-2">
+            ${links.map((link)=>{
+                return `<a href="${link.url}">
+                <i class="${link.icon}"></i>${link.label}
+                </a>`
+            }).join("")}
+            </div>
+            </section>
+            `
         }
-
     });
 });
+
