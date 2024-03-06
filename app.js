@@ -43,5 +43,7 @@ linkBtns.forEach((btn)=>{
         const center = (temBtn.left + temBtn.right) / 2;
         const bottom = temBtn.bottom -3;
         submenu.classList.add("show");
+        submenu.style.left = `${center}px`
+        submenu.style.top = `${bottom}px`
     })
 })
